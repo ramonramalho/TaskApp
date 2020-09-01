@@ -1,3 +1,4 @@
+import 'package:drawer_app/CreateTask.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -77,7 +78,11 @@ class _HomeState extends State<Home> {
             child: TableCalendar(
                 calendarController: _calendarController,
                 events: _events,
-                onDaySelected: (date,events){},
+                onDaySelected: (date,events){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CreateTask()));
+                },
             ),
           )
         ],
