@@ -1,0 +1,4 @@
+#Tue Aug 25 07:31:08 BRT 2020
+base.0=/home/ramon/AndroidStudioProjects/drawer_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
